@@ -23,6 +23,7 @@ echo
 apt-get update -y
 
 ## Install APache
+sudo apt-get install rsync -y
 sudo apt-get install apache2 apache2-utils -y
 systemctl start apache2
 systemctl enable apache2
